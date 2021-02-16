@@ -1,3 +1,7 @@
+# 2.0.1
+- Removed support for python3.5
+- Added support for python3.9
+
 # 2.0.0
 - Removed support for python 2
 - Updated to hunspell 1.7.0
