@@ -52,6 +52,7 @@ matrix:
     - HOMEBREW_NO_AUTO_UPDATE: 1
   - os: osx
     language: shell
+    osx_image: xcode12.2
     env:
     - PYENV_VERSION: 3.9-dev
     - CIBW_BUILD: cp39-*
@@ -115,7 +116,6 @@ before_install:
       python --version
       ;;
     osx)
-      brew update
       brew install autoconf automake libtool gettext
       brew link gettext --force
       eval "$(pyenv init -)"
