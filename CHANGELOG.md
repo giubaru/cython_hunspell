@@ -1,6 +1,6 @@
 # 2.0.2
 - Removed support for python3.5
-- Added support for python3.9 and python3.10
+- Added support for python3.9
 
 # 2.0.1
 - Fixed builds for OSX
