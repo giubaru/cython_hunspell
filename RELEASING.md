@@ -17,7 +17,7 @@ Then ensure that you've built the extension for the release.
     python setup.py build_ext
     # Remove the any accidentally added so files
     rm -rf hunspell/*.so
-    python setup.py test # Should pass with changes
+    pytest # Should pass with changes
 
 ## Commiting Changes
 

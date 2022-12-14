@@ -1,3 +1,6 @@
+# 2.0.3
+- Rebuilt with python 3.10 tested
+
 # 2.0.2
 - Removed support for python3.5
 - Added support for python3.9
