@@ -33,9 +33,4 @@ To release, run through the following:
 
     rm -rf dist
     git tag `cat VERSION`
-    python setup.py sdist
-    pip install dist/*
-    # Check the tar version matches expected release version
-    git push
     git push --tags
-    twine upload dist/*
