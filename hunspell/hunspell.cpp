@@ -290,7 +290,7 @@ END: Cython Metadata */
 #endif
 #if CYTHON_USE_PYLONG_INTERNALS
   #if PY_MAJOR_VERSION < 3
-    #include "longintrepr.h"
+    #include <python3.11/cpython/longintrepr.h>             /* for conversions */ 
   #endif
   #undef SHIFT
   #undef BASE
